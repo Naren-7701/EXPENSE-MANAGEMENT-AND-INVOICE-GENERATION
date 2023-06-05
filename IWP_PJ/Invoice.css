@@ -1,0 +1,79 @@
+html
+{  
+	overflow:auto;
+	padding:0.5in; 
+	background: #999; 
+}
+body 
+{ 
+	box-sizing:border-box; 
+	height:10in; 
+	margin:0 auto; 
+	overflow:hidden; 
+	padding:0.5in; 
+	width: 8in;
+	background: #FFF; 
+	font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+	font-size:20px;
+}
+.heading 
+{ 
+	background:#000; 
+	border-radius:0.25em; 
+	color: #FFF; 
+	margin:0px;
+	padding:0.5em 0;
+	text-align:center;
+}
+.projdetail
+{
+	margin-left:10px;
+	padding-top:15px;
+	position:relative;
+	line-height:2;
+}
+table,td,th
+{
+	margin:auto;
+	padding:7px;
+	text-align:center;
+	table-layout:fixed; 
+	width:100%; 
+	position:relative;
+}
+th { background:#EEE;}
+td,th
+{
+	border:solid rgb(99, 98, 98);
+	border-radius:0.25em;
+}
+.meta
+{ 
+	float:right; 
+	width:41%;
+	position:relative; 
+} 
+.balance
+{ 
+	float:right; 
+	width:41%; 
+	position:relative;
+}
+#download
+{
+	margin-top:20px;
+	background-color: rgb(62, 165, 255);
+	padding:8px;
+	border-radius:0.25em;
+}
+#download:hover
+{
+	background-color: rgb(255, 121, 166);
+	cursor:pointer;
+}
+.row
+{
+	padding-top:2px;
+	width:100%;
+	position:relative;
+}

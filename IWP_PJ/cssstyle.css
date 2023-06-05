@@ -1,0 +1,82 @@
+body
+{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size:17px;
+}
+.bg
+{
+    background-color:#ffffff;
+    background-size:cover;
+}
+.container
+{
+    margin:auto;
+    width:60%;
+    border:1px;
+    margin-top:3rem;
+}
+.shadow
+{
+    box-shadow:0 1rem 3rem rgba(0,0,0,.175);
+}
+.row
+{
+    display:flex;
+    flex-wrap:wrap;
+}
+.img-need
+{
+    flex:0 0 50%;
+    max-width:50%;
+}
+.d-none{display:none;}
+.bg-image
+{
+    background-image:url("Login-02.jpg");
+    background-size:cover;
+    width:60%;
+}
+.col
+{
+    flex:0 0 50%;
+    max-width:45%;
+}
+.padd{padding:3rem;}
+.text-center{text-align:center}
+h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:.5rem}
+input
+{
+    width:100%;
+    border:2px solid;
+    border-radius: 10px;
+    height:30px;
+    text-align:center;
+}
+.input2
+{
+    width:25%;
+    text-align:center;
+    border:2px solid;
+    border-radius:none;
+}
+a:visited 
+{ 
+    text-decoration: none; 
+    color:black;
+}
+.btn
+{
+    display:block;
+    text-align:center;
+    border:1px solid;
+    padding:3px 3px;
+    font-size:17px;
+    border-radius:20px;
+    background-color:#2e59d9;
+    text-decoration:none;
+    margin:5px;
+}
+.btn-primary:hover
+{
+    color:#fff;
+}

@@ -1,0 +1,125 @@
+#wrapper{ display:flex }
+.navigation
+{
+    display:flex;
+    flex-direction:column;
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+}
+.background
+{
+    background-color:#4269dd;
+    background-size:cover
+}
+.sidebar-prop
+{
+    align-items:center;
+    justify-content:center
+}
+.sidebarhr{ margin:0 1rem 1rem }
+.collapseitems
+{
+    background-color:#fff;
+    padding-bottom:.5rem
+}
+.collapse-inner
+{
+    border-radius:.35rem;
+    box-shadow:0 .15rem 1.75rem 0 rgba(58,59,69,.15)
+}
+.collapse-header
+{
+    margin:0;
+    padding:.5rem 1.5rem;
+    text-transform:uppercase;
+    color:#ffffff
+}
+.collapse-item
+{
+    padding:.5rem 1rem;
+    margin:0 .5rem;
+    display:block;
+    text-decoration:none;
+}
+.collapse-header
+{
+    margin:0;
+    padding:.5rem 1.5rem;
+    text-transform:uppercase;
+}
+#content-wrapper
+{
+    background-color:#cccaca;
+    width:100%;
+    overflow-x:hidden;
+    color:#858796;
+}
+.topcol
+{
+    color:#858796;
+    margin-right:10px;
+}
+.flex-column{ flex-direction:column; }
+.topcolor{background-color: white;}
+.img-profile
+{
+    height:2rem;
+    width:2rem;
+}
+.rounded-circle{border-radius:50%}
+.btn-secondary
+{
+    color:#fff;
+    background-color:#858796;
+    border-color:#858796
+}
+.button
+{
+    display:block;
+    text-align:center;
+    border:1px solid;
+    padding:4px 4px;
+    font-size:15px;
+    border-radius:5px;
+    background-color:#2e59d9;
+    text-decoration:none;
+    margin:5px;
+}
+.btn-primary:hover{ color:#fff;}
+.head
+{
+    margin:auto;
+    margin-left:150px;
+}
+.tabdetail
+{
+    flex:0 0 25%;
+    max-width:25%
+}
+.resulttext{ color:#858796; }
+#projectdetails
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px;
+}
+.create:hover{ background:rgb(193, 193, 193);}
+tr,td
+{
+    padding:10px;
+    font-size:20px;
+    font-weight:bold;
+}
+.viewhead
+{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.dastxt{ color:#5a5c69;}
+.rowtxt
+{
+    flex:0 0 25%;
+    max-width:25%;
+}
